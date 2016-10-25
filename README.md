@@ -1,4 +1,4 @@
-# API-Mock 
+# API-Mock
 
 [![Build Status](https://travis-ci.org/localmed/api-mock.png?branch=master)](https://travis-ci.org/localmed/api-mock)
 [![Coverage Status](https://img.shields.io/coveralls/localmed/api-mock.svg)](https://coveralls.io/r/localmed/api-mock?branch=master)
@@ -19,8 +19,8 @@ If you wish to install from source, you will need to build the library files man
 
     scripts/build
 
-or 
-    
+or
+
     npm build
 
 # Usage
@@ -32,25 +32,27 @@ or
       api-mock ./apiary.md --port 3000
 
     Options:
-      --port, -p          Set which port api-mock should listen on.
+      --port, -p            Set which port api-mock should listen on.
                                                                      [default: 3000]
-      --ssl-enable, -s    Enable SSL support.
+      --ssl-enable, -s      Enable SSL support.
                                                                     [default: false]
-      --ssl-port          Set which port api-mock should listen on for SSL traffic.
+      --ssl-port            Set which port api-mock should listen on for SSL traffic.
                                                                      [default: 3080]
-      --ssl-host          Set hostname for SSL server.
+      --ssl-host            Set hostname for SSL server.
 
-      --ssl-cert          Set path for SSL certificate file.
+      --ssl-cert            Set path for SSL certificate file.
                                                            [default: "./server.crt"]
-      --ssl-key           Set path for SSL key file.
+      --ssl-key             Set path for SSL key file.
                                                            [default: "./server.key"]
-      --cors-disable, -c  Disable CORS headers.
+      --cors-disable, -c    Disable CORS headers.
                                                                     [default: false]
-      --color, -k         Colorize cli output.
-                                                                     [default: true]
-      --help              Show usage information.
+      --cors-custom-headers Set custom CORS allowed headers
+                                                                    [default: null]
+      --color, -k           Colorize cli output.
+                                                                    [default: true]
+      --help                Show usage information.
 
-      --version           Show version number.
+      --version             Show version number.
 
 
 ## Contribution
